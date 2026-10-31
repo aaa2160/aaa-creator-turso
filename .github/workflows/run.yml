@@ -2,8 +2,7 @@ name: AAA • Turso Harvester
 
 on:
   schedule:
-    - cron: "0 3 * * 2"
-  workflow_dispatch:
+    - cron: "0 3,15 * * *":
 
 jobs:
   harvest:
